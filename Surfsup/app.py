@@ -10,7 +10,7 @@ from sqlalchemy import create_engine, func
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///Resources/hawaii.sqlite")
+engine = create_engine("sqlite:///hawaii.sqlite")
 
 
 # reflect an existing database into a new model
